@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color-Generator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/CSS/styleInicio.css" />
+  </head>
+  <body>
+    <div class="colordiv">
+      <div class="color" id="colorButton1">
+        <h3 id="colorCode1"></h3>
+      </div>
+      <br />
+      <div class="color" id="colorButton2">
+        <h3 id="colorCode2"></h3>
+      </div>
+    </div>
+    <button class="colorButton" onclick="changeButtonColor()">
+      Generate Color
+    </button>
+    <p>Tip: al clickear el color se copiaran los valores</p>
+    <script src="/JS/funcionColores.js"></script>
+  </body>
+</html>
